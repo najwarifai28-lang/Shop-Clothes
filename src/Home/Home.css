@@ -1,0 +1,42 @@
+.homess{
+    width: 100%;
+    height: 700px;
+    background: rgb(240, 200, 200);
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%); 
+     margin-top: 70px;
+   position: absolute;
+} 
+ .homess .girlHome{
+    position: absolute;
+    right: 0;
+   
+     
+} 
+ .homess .girlHome img{
+    width: 500px;  
+    height: 700px;  
+} 
+.homess .word{   
+    margin-left: 120px; 
+    color: black;
+    margin-top: 100px;  
+}   
+.homess .word p{ 
+    margin-bottom: 20px; 
+     
+}
+.homess .word h2{
+    font-size: 80px;  
+    margin-top: 100px;  
+    line-height: 100px;
+}     
+.homess .word button{
+    color: white;
+    background-color: rgb(214, 58, 58);
+    padding: 10px 20px; 
+    font-size: 16px;
+    border-radius: 20px; 
+    margin-top: 15px;
+    border: navajowhite; 
+    cursor: pointer;
+}

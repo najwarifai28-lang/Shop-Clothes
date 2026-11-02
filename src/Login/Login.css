@@ -1,0 +1,80 @@
+.logins1{
+    position: fixed;
+    inset: 0;
+    width: 100dvw;
+    height: 100vmax;
+    background-color: rgba(188, 143, 143, 0.979);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    margin-top: 70px;
+    
+} 
+.logins1 .login2 h1{
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+}
+.logins1 .login2{ 
+    width: 60%; 
+    color: white; 
+    background: royalblue;
+    position: absolute;
+    top: 0;
+    margin-top: 100px; 
+    padding: 100px 20px;
+}  
+.logins1 .login2 input{
+    padding: 10px 20px;
+    border: none; 
+    font-size: 13px;  
+    border-radius: 6px; 
+    width: 320px;  
+    margin: auto;
+    box-shadow: 0 0 2px whitesmoke;
+} 
+.logins1 .login2 .login3{
+     display: flex; 
+     flex-direction: column;
+     gap: 20px;
+}  
+.logins1 .login2 .cancel{ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logins1 .login2 .cancel button{
+    color: white;
+
+}
+.logins1 .check input{
+    box-shadow: none;
+    border: none;
+    
+}
+.logins1 .check{ 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.logins1 .check p{
+    position:relative ;
+    left: -190px;
+}
+.logins1 .account p{
+    text-align: center;
+    margin-top: 40px; 
+}
+.logins1 .account p span{ 
+    color:rgb(136, 11, 61);
+    cursor: pointer;
+} 
